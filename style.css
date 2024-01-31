@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+  }
+
+  .left {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+    background-image: linear-gradient( rgb(4, 242, 234),rgb(239, 229, 31));
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.title{
+    font-style: italic;
+}
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-gap: 50px;
+} 
+
+.box{
+    background-image: linear-gradient(-45deg, rgb(4, 242, 234),rgb(14, 113, 252));
+    color: aliceblue;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* ///////////////////////////// */
+
+
+.vertical-line {
+    width: 2px;
+    background-color: #f1eaea; 
+    height: 100%;
+  }
+
+
+
+/* ///////////////////////////// */
+
+
+.right {
+    background-image: linear-gradient( rgb(4, 242, 234),rgb(239, 229, 31));
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #e2fa9a; 
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.respart{
+    margin-left: -200px;
+    margin-top: -190px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(1,200px);
+} 
+
+.resbox{
+    color: #ffffff;
+    font-size: 1.5em;
+    border: .5px solid rgb(15, 9, 9);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 1px;
+} 
+
+.Rcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-gap: 50px;
+}
+ 
+.choosebox{
+    background-image: linear-gradient(-45deg, rgb(91, 4, 242),rgb(237, 96, 31));
+    color: aliceblue;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose the Same</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="left">
+      <h1 class="title">Choose the one shown there</h1>
+
+      <div class="container">
+        <div class="box" id="box1" onclick="getName(this)"></div>
+        <div class="box" id="box2" onclick="getName(this)"></div>
+        <div class="box" id="box3" onclick="getName(this)"></div>
+      </div>
+    </div>
+
+    <div class="vertical-line"></div>
+
+    <div class="right">
+      <div class="respart">
+        <div class="resbox" id="correct">Correct</div>
+        <div class="resbox" id="incorrect">Incorrect</div>
+      </div>
+
+      <div class="rcontainer">
+        <div class="choosebox"></div>
+      </div>
+    </div>
+
+
+    <script src="list.js"></script>
+    <script src="java.js"></script>
+  </body>
+</html>
