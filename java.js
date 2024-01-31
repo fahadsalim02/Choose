@@ -34,7 +34,7 @@ function compareText() {
   if (selectedText === chooseBoxText) {
     document.getElementById("incorrect").style.backgroundColor = "";
     document.getElementById("correct").style.backgroundColor = "green";
-    // playAudior();
+    // playAudior(); incase you want to play music
     setTimeout(() => {
       document.getElementById("correct").style.backgroundColor = "";
       start();
